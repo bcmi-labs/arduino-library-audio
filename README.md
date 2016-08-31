@@ -61,12 +61,12 @@ Stop the audio reproduction for a given output device
   * _STD_:  onboard audio codec
   * _HDMI_: HDMI audio codec
 
-
+<br/>
 ## Remarks:
 
-Francesco Alessi: This proposal, in my opinion is better than the second, because the command are the same for all devive, and is possible to use one or another changing one argument.
+Francesco Alessi: This proposal, in my opinion is better than the second, because the command are the same for all device, and is possible to use one or another changing one argument.
 
-
+<br/><br/><br/>
 ## _(Second Proposal)_
 
 ### **Audio.begin(_rate_, _size_):**
