@@ -7,7 +7,7 @@ _1. begin_<br>
 _2. prepare_<br>
 _3. write_
 
-_In my opinion this commands are not sufficient for Audio Interface of Otto board because there are no commands to use the microphones and to select the output channel._
+_This commands are not sufficient for Audio Interface of Otto board because there are no commands to use the microphones and to select the output channel._
 
 # AUDIO API definition
 ## _(First Proposal)_
@@ -16,7 +16,7 @@ _In my opinion this commands are not sufficient for Audio Interface of Otto boar
 Initialize the Audio Device
 * _**device**_: set the device to be initialized.
   * _STD_: initialize the onboard audio codec
-  * _HDMI_: initilaize the HDMI audio codec
+  * _HDMI_: initialize the HDMI audio codec
 * _int **rate**_: sets the sample rate of the file to be reproduced or the acquisition datarate
 * _int **size**_: is the size of audio buffer in milliseconds
 
@@ -139,5 +139,5 @@ Stop the audio reproduction for audio jack and pin header audio connector
 ### **AudioHDMI.stop():**
 Stop the audio reproduction for HDMI audio Device
 
-
-###Remark:
+<br/>
+## Remark:
