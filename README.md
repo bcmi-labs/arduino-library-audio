@@ -1,13 +1,13 @@
 # arduino-library-audio
 Arduino Audio Library for stm32 platform
 
-_There is one Audio library for Arduino Due (https://github.com/arduino-org/Arduino/tree/master/libraries/Audio). This library have only tre "commands"_
+_There is one Audio library for Arduino Due (https://github.com/arduino-org/Arduino/tree/master/libraries/Audio). This library has only three "commands"_
 
 _1. begin_<br>
 _2. prepare_<br>
 _3. write_
 
-_In my opinion this commands are not sufficient for Otto board audio interface, because there are no command to use the microphones and to select the output channel._
+_In my opinion this commands are not sufficient for Audio Interface of Otto board because there are no commands to use the microphones and to select the output channel._
 
 # AUDIO API definition
 ## _(First Proposal)_
@@ -64,7 +64,7 @@ Stop the audio reproduction for a given output device
 <br/>
 ## Remarks:
 
-Francesco Alessi: This proposal, in my opinion is better than the second, because the command are the same for all device, and is possible to use one or another changing one argument.
+Francesco Alessi: This proposal, in my opinion is better than the second, because the commands are the same for all devices, and is possible to use one or another by change one argument.
 
 <br/><br/><br/>
 ## _(Second Proposal)_
