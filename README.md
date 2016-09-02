@@ -140,4 +140,4 @@ Stop the audio reproduction for audio jack and pin header audio connector
 Stop the audio reproduction for HDMI audio Device
 
 <br/>
-## Remark:
+## Remarks:
