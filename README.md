@@ -22,6 +22,7 @@ AudioDevice(theParent, sampleRate, bufferSize)
 Audio Device allows for configuring the audio server. If you need a low latency server you can reduce the buffer size. Allowed values are power of 2. For changing the sample rate pass the appropriate value in the constructor.
 
 - **Example:**
+
       import processing.sound.*;
       AudioDevice myAudioServer;
 
@@ -53,6 +54,7 @@ Audio Device allows for configuring the audio server. If you need a low AudioIn 
  - __stop()__: Stop the input stream.
 
 - **Example:**
+
       import processing.sound.*;
       AudioIn in;
 
@@ -407,6 +409,7 @@ This is a White Noise Generator. White Noise has a flat spectrum.
 
 
 - **Example:**
+
        import processing.sound.*;
        WhiteNoise noise;
 
@@ -439,6 +442,7 @@ This is a Pink Noise Generator. Pink Noise has a decrease of 3dB per octave.
 
 
 - **Example:**
+
        import processing.sound.*;
        PinkNoise noise;
 
